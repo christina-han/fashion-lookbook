@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <title>Project2</title>
+ </head>  
+   <style>
+        body{
+            background: #000;
+        }
+        .wrapper{
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        .cover-fit{
+            width: 100%;
+            /* height: 100%; */
+            object-fit: cover;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 20px;
+        }
+        .nav-left .a-home{
+            text-decoration: none;
+            color: #ECCEBD;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .nav-right .a-project{
+            text-decoration: none;
+            color: #55A2D9;
+            font-weight: bold;
+            font-size: 30px;
+            padding-right: 100px;
+            border-bottom: 1px solid #55A2D9;
+        }
+        .nav-right .a-about{
+            text-decoration: none;
+            color: #ECCEBD;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .title{
+            color: #ECCEBD;
+            font-size: 60px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .title-2{
+            font-size: 25px;
+            color:#55A2D9;
+            margin: 20px;
+    
+        }
+        .title-3{
+            font-size: 30px;
+            color:#55A2D9;
+           text-align: center;
+    
+        }
+/* slider */
+        .wrapper{
+            max-width: 1280px;
+            margin:0 auto;
+        }
+        .carousel-indicators li{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border:1px solid #91D7D9;
+            background-color: #91D7D9;
+            margin: 0 10px;
+        }
+/* section1 */
+        .con1-w{
+           margin-top: 200px;
+           width: 611px;
+           height: 94px;
+           margin: 200px auto 0 auto;
+        }
+        .container1{
+            display: flex;
+            background-color: #ECCEBD;
+            width: 100%;
+            height: 540px;
+            margin-top: 100px;
+        }
+        
+        .con1-img1{
+            /* width: 294px;
+            height: 441px; */
+            transition: .8s;
+        }
+        .con1-img1:hover{
+            transform: scale(1.2, 1.2);
+        }
+        .con1-img2{
+            /* width: 345px;
+            height: 518px; */
+            margin-left: 50px;
+            transition: .8s;
+        }
+        .con1-img2:hover{
+            transform: scale(1.2, 1.2);
+        }
+        .con1-img3{
+            /* width: 277px;
+            height: 435px; */
+           margin-left: 100px;
+            transition: .8s;
+        }
+        .con1-img3:hover{
+            transform: scale(1.2, 1.2);
+            
+        }
+        @media screen and (max-width: 992px) {
+            .container1{
+             width: 100%;
+             margin: 0;
+            }
+            .con1-img2{
+            display: none;
+        }
+           
+           
+            
+            
+        }
+/* section2 */
+        .container2{
+            background: url("images/Himg4.png");
+            height: 800px;
+            display: flex;
+            position: relative;
+            margin-top: 200px;
+
+        }
+        
+        .con2-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: -300px 0 0 500px;
+           
+        }
+        .con2-img1{
+            width: 400px;
+            height: 524px;
+            padding-right: 20px;
+
+        }
+        .con2-img2{
+            width: 350px;
+            height: 524px;
+        }
+        .con2-w1{
+            position: absolute;
+            top: 750px;
+        }
+        .con2-w2{
+            position: absolute;
+            top: 820px;
+        }
+        @media screen and (max-width: 992px) {
+
+            .con2-img{
+                margin: -300px 0 0 50px;
+            }
+        }
+/* footer */
+        .footer{
+            margin-top: 400px;
+            text-align: center;
+
+        }
+        .footer-a{
+            text-decoration: none;
+        }
+        .footer-a .footer-p{
+            color:#55A2D9;
+            font-weight: bold;
+            font-size: 50px;
+            margin-top: 0;
+           
+        }
+
+       
+       
+       
+
+   </style>
+   
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="nav-left">
+               <a class="a-home"href="http://127.0.0.1:5500/main.html#firstPage">HOME</a>
+            </div>
+           <div class="nav-right"> 
+                <a class="a-project" href="">PROJECT</a>
+                <a class="a-about" href="http://127.0.0.1:5500/about.html">ABOUT</a>
+            </div>
+         </div>
+    
+         <div class="title">HAANS</div>
+         <div class="title-2">-PROJECT 02</div>
+         <div class="title-3">My own brand design</div>
+    <div class="main">
+<!-- slider -->
+<div class="wrapper">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/H1.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/H2-1.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/H2-2.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/H3-1.png" alt="Fourth slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/H3-2.png" alt="Fifth slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/H3-3.png" alt="Sixth slide">
+        </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <img src="images/ASarrow-l.png" alt="">
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <img src="images/ASarrow-r.png" alt="">
+        <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+<!-- section1 -->
+        <div data-600="transform: translateY(0); transition: .5s" data-800="transform: translateY(20px);" class="con1-w"><img class="covrt-fit" src="images/movie-Cafe' Society.png" alt=""></div>    
+    <div class="container1 container">
+        
+        <div data-833="margin-top: 0 ; transition: .5s" data-1165="margin-top: 50px;" class="con1-img1"><img  class="covrt-fit" src="images/Himg1.png" alt=""></div>
+        <div data-833="margin-top: 0 ; transition: .5s" data-1165="margin-top: -20px;" class="con1-img2"><img  class="covrt-fit" src="images/Himg2.png" alt=""></div>
+        <div data-833="margin-top: 0 ; transition: .5s" data-1165="margin-top: -20px;" class="con1-img3"><img  class="covrt-fit" src="images/Himg3.png" alt=""></div>
+
+    </div>
+<!-- section2 -->
+    <div class="container2">
+        <div class="con2-img">
+        <div data-1180="opacity: 0; transition: 1s" data-1800="opacity: 1;" class="con2 con2-img1"><img class="cover-fit" src="images/Himg5.png" alt=""></div>
+        <div data-1180="opacity: 0; transition: 1s" data-1800="opacity: 1;" class="con2 con2-img2"><img class="cover-fit" src="images/Himg6.png" alt=""></div></div>
+        <div class="con2-w1"><img class="cover-fit" src="images/-I guess some feeling never die..png" alt=""></div>
+        <div class="con2-w2"><img class="cover-fit" src="images/-Is that good or bad.png" alt=""></div>
+    </div>
+<!-- footer -->
+    <div class="footer">
+    <a class="footer-a" href="http://127.0.0.1:5500/project3.html"> <div><img src="images/Union 1.png" alt="">
+    <p class="footer-p">NEXT PROJECT</p></div>
+    </a>
+    
+    </div>
+    
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="skrollr-master/src/skrollr.js"></script>
+<script type="text/javascript">
+var s = skrollr.init();
+</script>
+
+
+<script>
+   
+//    -----------scrolling animate----------------------
+$(function () {
+    $(window).scroll(function () {
+        var scrollVal = $(this).scrollTop();
+        console.log(scrollVal)
+        $("span.qScrollTop").text(scrollVal);
+    });
+    });
+    $(window).scroll(function(){
+        if($(window).scrollTop() >=1970) {
+            $(".con2-w1").addClass("animate__animated animate__slideInLeft");
+        }else{
+            $(".con2-w1").removeClass("animate__animated animate__slideInLeft");
+
+        }
+
+    })
+    $(window).scroll(function(){
+        if($(window).scrollTop() >=2100) {
+            $(".con2-w2").addClass("animate__animated animate__slideInLeft");
+        }else{
+            $(".con2-w2").removeClass("animate__animated animate__slideInLeft");
+
+        }
+
+    })
+</script>
+    
+    
+</body>
+</html>
